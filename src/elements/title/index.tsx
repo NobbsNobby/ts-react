@@ -6,4 +6,6 @@ type PropsTypes = {
   children: string;
 };
 
-export const Title: FC<PropsTypes> = ({ children }: PropsTypes) => <h1 className={styles.title}>{children}</h1>;
+export const Title: FC<PropsTypes> = ({ children }: PropsTypes) => (
+  <h1 className={styles.title}>{children}</h1>
+);
